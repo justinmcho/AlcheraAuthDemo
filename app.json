@@ -4,9 +4,9 @@
     "slug": "AlcheraAuthDemo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/alchera.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/alchera.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,16 +17,19 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mg.cho.AlcheraAuthDemo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.mg.cho.AlcheraAuthDemo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Alchera Authentication SILO Demonstration App of OCR and Face API"
   }
 }
